@@ -1,0 +1,18 @@
+dataset:
+  hw_files_path: /Users/jacoboromerodiaz/Projects/Whistlit/data/archive
+  songs_path: /Users/jacoboromerodiaz/Projects/Whistlit/data/songs
+  preprocess: True
+  fs: 22000
+
+neptune:
+  name: Epithelium
+  tags: ['hparam']
+
+model:
+  path: /Users/jacoboromerodiaz/Projects/Whistlit/soundnet_weights.pth
+
+epochs: 100
+batch_size: 16
+folds: 3
+save_dir: /Users/jacoboromerodiaz/Projects/Whistlit/output/
+seed: 2222
